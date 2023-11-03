@@ -46,12 +46,21 @@ body{
     display: none;
 }
 
+/*MAIN_INFO*/
+
 #main-info{
     width: calc(100% - 60px);
     margin-left: 60px;
-    border: 1px solid black;
+    color: white;
     height: 300px;
 }
+.testo-info{
+    display: inline-flex;
+}
+.fa-square-plus{
+    font-size: 30px;
+}
+
 #main-content .container-fluid{
     width: calc(100% - 60px);
     margin-left: 60px;
