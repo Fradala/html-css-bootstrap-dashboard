@@ -28,7 +28,7 @@ body{
     border: 2px solid black;
     height: 300px;
 }
-#main-content .container{
+#main-content .container-fluid{
     width: calc(100% - 60px);
     margin-left: 60px;
     border: 2px solid black;
@@ -43,9 +43,9 @@ body{
         
     }
 
-    #main-content .container{
-        width: calc(100% - 100px);
-        margin-left: 100px;
+    #main-content .container-fluid{
+        width: calc(100% - 60px);
+        margin-left: 60px;
     }
 
     
@@ -68,7 +68,7 @@ body{
         height: 100px;
     }
 
-    #main-content .container{
+    #main-content .container-fluid{
         width: calc(100% - 100px);
         margin-left: 100px;
     }
