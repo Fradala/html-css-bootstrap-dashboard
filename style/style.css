@@ -40,12 +40,13 @@ body{
 
 
 .barra-laterale{
-    height: calc(100vh - 60px);
+    height: calc(100% - 60px);
     width: 60px;
     border: 1px solid black;
     position: absolute;
     left: 0px;
     top: 0px;
+    bottom: 0px;
     background-color: rgb(20, 20, 238);
     color: white;
 }
@@ -82,12 +83,38 @@ body{
     display: none;
 }
 
+
+
 .fa-code{
     color: white;
     background-color: red;
     border-radius: 20px;
+    font-size: 18px;
+    padding: 5px;
+}
+.card{
+    margin: 25px 5px;
 }
 
+.btn{
+    padding: 1px 5px;
+    border-radius: 7px;
+    font-size: 13px;
+    color: white;
+}
+.fa-pen,
+.fa-trash{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 5px;
+    color: gray;
+}
+.fa-trash{
+    margin-left: 5px;
+}
+.center{
+    text-align: center;
+}
 
 @media screen and (min-width:768px) {
 
@@ -97,8 +124,9 @@ body{
         width: calc(100% - 60px);
         margin-left: 60px;
     }
+    
     .desk{
-        display: inline-block;
+        display:block;
     }
     .smart{
         display: none;
