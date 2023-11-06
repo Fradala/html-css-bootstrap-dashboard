@@ -7,12 +7,19 @@ body{
 .nav{
     height: 60px;
     border: 1px solid black;
+    width: 100%;
     
 }
-.form-control{
-    width: 370px;
-    height: 45px;
-    margin-top: 5px;
+.search{
+    
+    height: 40px;
+    margin: 9px auto;
+    
+   
+}
+#search-bar{
+    background-color: gainsboro;
+    font-size: 13px;
 }
 
 .small-logo{
@@ -34,6 +41,22 @@ body{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+}
+.fa-bell{
+    font-size: 20px;
+    color: orange;
+    display: flex;
+    align-items: center;
+    margin-right: 5px;
+}
+.fa-list,
+.fa-circle-question,
+.fa-ellipsis-vertical{
+    font-size: 20px;
+    margin-right: 5px;
+    display: flex;
+    align-items: center;
+    display: none;
 }
 
 
@@ -63,6 +86,11 @@ body{
     color: white;
    
     background-color: rgb(0, 149, 255);
+}
+
+.bottone-info{
+    border-radius: 20px;
+    padding: 10px;
 }
 .testo-info{
     display: inline-flex;
@@ -117,6 +145,11 @@ body{
     text-align: center;
 }
 
+span{
+    text-decoration: underline;
+    color: blue;
+}
+
 @media screen and (min-width:768px) {
 
     
@@ -150,6 +183,14 @@ body{
     .logo{
         display: block;
         margin-left: 12px;
+        margin-right: 10px;
+    }
+    
+
+    .fa-list,
+    .fa-circle-question,
+    .fa-ellipsis-vertical{
+        display: flex;
     }
 
 
@@ -168,6 +209,7 @@ body{
         display: inline-block;
         
     }
+
    
     
 }
