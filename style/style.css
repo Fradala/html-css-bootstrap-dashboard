@@ -109,6 +109,10 @@ h1{
     display: none;
 }
 
+.fa-circle-plus{
+    
+    color: blue;
+}
 
 .testo-info{
     margin-top: 5px;
@@ -228,7 +232,7 @@ h1{
     .app{
         display: inline-block;
     }
-    .croce{
+    .fa-circle-plus{
         display: none;
     }
    
