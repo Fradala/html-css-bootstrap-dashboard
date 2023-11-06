@@ -40,14 +40,15 @@ body{
 
 
 .barra-laterale{
-    height: calc(100% - 60px);
+    height: calc(100vh - 60px);
     width: 60px;
     border: 1px solid black;
     position: absolute;
     left: 0px;
     top: 0px;
     bottom: 0px;
-    background-color: rgb(20, 20, 238);
+    background-image:url(../img/sidebar-bg.png) ;
+    background-color: rgb(10, 4, 42);
     color: white;
 }
 .testo-pc{
@@ -75,7 +76,6 @@ body{
 #main-content .container-fluid{
     width: calc(100% - 60px);
     margin-left: 60px;
-    border: 1px solid black;
     
 }
 
