@@ -87,17 +87,33 @@ body{
    
     background-color: rgb(0, 149, 255);
 }
+h1{
+    display: inline-block;
+}
+
 
 .bottone-info{
+   
+    color: white;
+    background-color: blue;
+    border: 0px;
     border-radius: 20px;
-    padding: 10px;
-}
-.testo-info{
-    display: inline-flex;
+    font-size: 13px;
 }
 .fa-square-plus{
     font-size: 30px;
+    margin-left: 10px;
+   
 }
+.app{
+    display: none;
+}
+
+
+.testo-info{
+    margin-top: 5px;
+}
+
 
 /*MAIN_CONTENT*/
 
@@ -145,7 +161,7 @@ body{
     text-align: center;
 }
 
-span{
+.testo-blu{
     text-decoration: underline;
     color: blue;
 }
@@ -209,7 +225,12 @@ span{
         display: inline-block;
         
     }
-
+    .app{
+        display: inline-block;
+    }
+    .croce{
+        display: none;
+    }
    
     
 }
