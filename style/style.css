@@ -145,11 +145,12 @@ h1{
     
     
 }
-#main-content{
+
+
+.overflow{
     overflow: scroll;
     height: 100vh;
 }
-
 
 .desk{
     display: none;
