@@ -142,11 +142,10 @@ h1{
 #main-content .container-fluid{
     width: calc(100% - 60px);
     margin-left: 60px;
+    overflow: scroll;
     
 }
-.contenitore{
-    overflow: scroll;
-}
+
 
 .desk{
     display: none;
