@@ -29,33 +29,47 @@
                 <i class="fa-solid fa-list"></i>
                 <i class="fa-solid fa-circle-question"></i>
                 <i class="fa-solid fa-ellipsis-vertical"></i>
-                <i class="me-2 fa-solid fa-bell"></i>
+                <div class="dropdown">
+                    <button class="btn  dropdown-toggle" type="button" data-bs-toggle="dropdown" aria-expanded="false"><i class="me-2 mt-3 fa-solid fa-bell"></i>
+                      
+                    </button>
+                    <ul class="dropdown-menu ">
+                      <li><a class="dropdown-item active" href="#">Action</a></li>
+                      <li><a class="dropdown-item" href="#">Another action</a></li>
+                      <li><a class="dropdown-item" href="#">Something else here</a></li>
+                      <li><hr class="dropdown-divider"></li>
+                      <li><a class="dropdown-item" href="#">Separated link</a></li>
+                    </ul>
+                </div>
+                
               
                
             
             </div>
           
         </section>
+       
     </header>
-    <aside id="aside-bar">
-        <div class="barra-laterale flex">
-            <div class="sopra flex mt-3">
-                <div>
-                    <i class="fa-solid fa-house mb-2"></i><p class="testo-pc ms-2">Home</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-chart-simple mb-2 "></i><p class="testo-pc ms-2">Stats</p>
-                </div>
-                <div>
-                    <i class="fa-solid fa-signal mb-2 "></i><p class="testo-pc ms-2">Signals</p>
-                </div>
-            </div>
-            <div class="admin mb-3">
-                <i class="fa-solid fa-gear"></i><p class="testo-pc ms-2">Admin</p>
-            </div>
-        </div>
-    </aside>
+    
     <main>
+        <aside id="aside-bar">
+            <div class="barra-laterale flex">
+                <div class="sopra flex mt-3">
+                    <div class="sfondo-grigio">
+                        <i class="fa-solid fa-house mb-2"></i><p class="testo-pc ms-2">Home</p>
+                    </div>
+                    <div class="sfondo-grigio">
+                        <i class="fa-solid fa-chart-simple mb-2 "></i><p class="testo-pc ms-2">Stats</p>
+                    </div>
+                    <div class="sfondo-grigio">
+                        <i class="fa-solid fa-signal mb-2 "></i><p class="testo-pc ms-2">Signals</p>
+                    </div>
+                </div>
+                <div class="admin mb-3 sfondo-grigio">
+                    <i class="fa-solid fa-gear"></i><p class="testo-pc ms-2">Admin</p>
+                </div>
+            </div>
+        </aside>
         <section id="main-info">
             <div class="container">
                 <div class="row">
@@ -113,6 +127,7 @@
                                         <div class="col-md-6">
                                           <label for="inputCity" class="form-label">Stato</label>
                                           <input type="text" class="form-control" id="inputCity">
+                                          
                                         </div>
                                         <div class="col-md-4">
                                             <label for="inputState" class="form-label">CAP</label>
@@ -184,7 +199,7 @@
                                             </tr>
                                             <tr>
                                                 <th scope="row"><i class="fa-solid fa-code"></i>Classe 77</th>
-                                                <td class="center"><button type="button" class="btn btn-warning">process</button></td>                                            </td>
+                                                <td class="center"><button type="button" class="btn btn-warning">process</button></td>                                            
                                                 <td class="center"><i class="fa-solid fa-pen"></i><i class="fa-solid fa-trash"></i></td>
                                             </tr>
                                             <tr>

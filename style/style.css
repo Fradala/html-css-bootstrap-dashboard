@@ -72,6 +72,11 @@ body{
     display: none;
 }
 
+.sfondo-grigio:hover{
+    
+    background-color: lightslategray;
+    
+}
 
 
 
@@ -147,6 +152,9 @@ h1{
     display: none;
 }
 
+.table :hover{
+    background-color: rgb(207, 217, 228);
+}
 
 
 .fa-code{
@@ -204,6 +212,7 @@ h1{
     #bottone-off{
         margin-bottom: 62px;
     }
+   
 }
 
 
@@ -254,7 +263,7 @@ h1{
         display: none;
     }
     #bottone-off{
-        margin-bottom: 40px;
+        margin-bottom: 62px;
     }
     
     
