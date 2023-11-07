@@ -2,6 +2,19 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+#offcanvasExample{
+    right: 0px;
+    left: calc(100% - 450px);
+    width: 450px;
+}
+
+#bottone-off{
+    border: 0px;
+    background-color: transparent;
+    
+}
+
+
 
 
 .nav{
@@ -115,7 +128,7 @@ h1{
 }
 
 .testo-info{
-    margin-top: 5px;
+    margin-top: 15px;
 }
 
 
@@ -125,6 +138,9 @@ h1{
     width: calc(100% - 60px);
     margin-left: 60px;
     
+}
+.contenitore{
+    overflow: scroll;
 }
 
 .desk{
@@ -185,7 +201,9 @@ h1{
     .smart{
         display: none;
     }
-    
+    #bottone-off{
+        margin-bottom: 62px;
+    }
 }
 
 
@@ -235,7 +253,10 @@ h1{
     .fa-circle-plus{
         display: none;
     }
-   
+    #bottone-off{
+        margin-bottom: 40px;
+    }
+    
     
 }
 
