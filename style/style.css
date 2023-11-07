@@ -142,8 +142,12 @@ h1{
 #main-content .container-fluid{
     width: calc(100% - 60px);
     margin-left: 60px;
-    overflow: scroll;
     
+    
+}
+#main-content{
+    overflow: scroll;
+    height: 100vh;
 }
 
 
@@ -192,6 +196,9 @@ h1{
     text-decoration: underline;
     color: blue;
 }
+
+
+
 
 @media screen and (min-width:768px) {
 
